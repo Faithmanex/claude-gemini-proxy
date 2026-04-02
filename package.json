@@ -1,0 +1,15 @@
+{
+  "name": "claude-gemini-proxy",
+  "version": "1.0.0",
+  "description": "Anthropic API → Gemini proxy for Claude Code",
+  "main": "proxy.js",
+  "scripts": {
+    "start": "node proxy.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
